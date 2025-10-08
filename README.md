@@ -14,12 +14,12 @@ Please see the image below for the scenario provided by Malware Traffic Analysis
 
 
 ## Primary Objectives
-
+```
 - Understand and apply Wireshark filters to extract useful data from network traffic
 - Identify potential security issues, including exposed credentials and improper protocols
-
+```
 ## Step-by-Step Breakdown of Scenario Interpretation
-
+```
 - Spotted the Incident Trigger
 Mike reported that his computer was "acting weird," raising a red flag. Despite the vague description, the timing of the issue and Mike’s reluctance to explain further hinted at potential malicious activity.
 - Help Desk Escalation
@@ -36,7 +36,7 @@ Expecting that Mike may have unknowingly submitted credentials or sensitive data
 This helped rule out certain types of HTTP authentication attacks, narrowing down the threat model.
 - Mapped Findings to Storyline
 Each task was built to trace what Mike couldn’t explain: by correlating timeline, payloads, request types, and destination hosts, I established a narrative of what the computer was doing “weirdly.”
-
+```
 ## Project Breakdown and Analysis
 
 ### Task 1: Identifying High-Volume Connections
@@ -114,5 +114,6 @@ I) The traffic captured was either encrypted by more secure methods of authentic
 II) This whole incident could have just been a false positive.
 
 ## Conclusion
-
+```
 This project provided me with hands-on experience in network traffic analysis, broadening my understanding of data security and packet inspection. Through this project, I successfully demonstrated the importance of robust security measures in protecting data integrity and privacy.
+```
